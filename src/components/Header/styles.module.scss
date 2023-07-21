@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    font-family: Inter;  
+    max-width: 1230px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+
+}
+
+.logo {
+    object-fit: cover;
+    padding: 0 10px;
+}
+
+.options {
+    display: flex;
+    span{
+        margin: 0 44px;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+.button {
+    button{
+        padding: 10px 60px;
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: transparent;
+    }
+}
