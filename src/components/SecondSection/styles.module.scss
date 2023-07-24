@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+
+.text {
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 90px;
+    
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    p{
+        margin-bottom: 24px;
+        font-size: 18px;
+        max-width: 430px;
+    }
+    span{
+        color: #da2535;
+
+        text-decoration: underline;
+    }
+}
