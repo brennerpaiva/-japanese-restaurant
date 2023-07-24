@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif; 
+    
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    p {
+        margin-top: 24px;
+        font-size: 18px;
+        max-width: 430px;
+    }
+
+    button{
+        margin-top: 36px;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        padding: 10px 40px;
+        width: 292px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        background-color: #da2535;
+        color: #FBFBFB;
+    }
+}
