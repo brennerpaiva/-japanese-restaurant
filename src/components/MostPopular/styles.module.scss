@@ -6,6 +6,9 @@
     padding: 40px 20px;
     align-items: center;
 
+    h1 {
+        font-size: 36px;
+    }
 }
 
 .cardRow {
@@ -47,7 +50,7 @@
 .card:hover {
     img {
         width: 235px;
-        
+       
     }
 }
 
