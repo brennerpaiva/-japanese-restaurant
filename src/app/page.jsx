@@ -6,6 +6,7 @@ import SecondSection from "@/components/SecondSection/secondSection";
 import MostPopular from "@/components/MostPopular/mostPopular";
 import Comments from "@/components/Comments/comments";
 import Location from "@/components/Location/location";
+import Footer from "@/components/Footer/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MostPopular />
       <Comments />
       <Location />
+      <Footer />
     </main>
   );
 }
