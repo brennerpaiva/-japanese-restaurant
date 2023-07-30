@@ -12,7 +12,7 @@ export default function MostPopular() {
       <div className={Styles.cardRow}>
         <div className={Styles.card}>
           <div className={Styles.cardImage}>
-            <Image src={FirstCardImage} width={240} />
+            <Image src={FirstCardImage} width={220} />
           </div>
           <span>Ramen de Frango</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

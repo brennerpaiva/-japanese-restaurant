@@ -18,13 +18,13 @@
 }
 
 .card { 
-    width: 380px;
+    width: 360px;
     height: 450px;
     margin-top: 160px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: #F3F3F3;
+    background: var(--grayLight);
     border-radius: 16px;
     cursor: pointer;
     

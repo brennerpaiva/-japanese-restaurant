@@ -18,7 +18,7 @@ export default function Comments() {
         </div>
         <div className={Styles.card}>
           <Image src={SecondProfileImage} width={120} />
-          <span>Daniele Almeida</span>
+          <span>Ricardo França</span>
           <p>
             Não é apenas a comida excelente, o serviço torna a experiência
             especial.

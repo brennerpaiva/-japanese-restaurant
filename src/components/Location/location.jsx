@@ -9,7 +9,7 @@ export default function Location() {
     <div className={Styles.container}>
       <h1>Localização</h1>
       <div className={Styles.location}>
-        <Image src={MapImage} width={1228} />
+        <Image src={MapImage} width={1170} />
         <div className={Styles.input}>
           <Image src={MapIcon} width={30} />
           <input type="text" placeholder="Localização para entrega" />
