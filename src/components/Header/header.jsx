@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <head className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.logo}>
         <Image src={LogoImage} width={157}></Image>
       </div>
@@ -17,6 +17,6 @@ export default function Header() {
       <div className={styles.button}>
         <button>Entrar</button>
       </div>
-    </head>
+    </header>
   );
 }
