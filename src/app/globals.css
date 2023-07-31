@@ -9,11 +9,19 @@
 
 :root {
   --primary: #da2535;
+  --white: #fbfbfb;
+  --dark-10: #292929;
+  --dark-20: #616161;
+  --dark-30: #f3f3f3;
+}
 
-  --white: #f3f3f3;
+html {
+  font-size: 62.5%; /* 10px */
+}
 
-  --grayDarker: #292929;
-  --grayLigher: #616161;
+body {
+  font-size: 1.6rem; /* 16px */
+  color: var(--dark-10);
 }
 
 @media (max-width: 1080px) {
@@ -31,7 +39,7 @@
 }
 
 body {
-  background: var(--blue-900);
+  background: var(--white);
 }
 
 body,
