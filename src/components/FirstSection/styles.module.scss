@@ -8,31 +8,31 @@
 }
 
 .text {
-    font-family: "Montserrat", sans-serif; 
-    
     h1{
-        font-size: 36px;
+        font-family: "Montserrat", sans-serif; 
+        font-size: 4rem;
         font-weight: 600;
     }
     p {
         margin-top: 24px;
-        font-size: 18px;
-        max-width: 430px;
+        font-size: 2rem;
+        line-height: 160%;
+        max-width: 440px;
     }
 
     button{
         margin-top: 36px;
         font-family: Inter;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 2rem;
         display: flex;
-        padding: 10px 40px;
+        padding: 1.3rem 4rem;
         width: 292px;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
         border: none;
-        background-color: #da2535;
-        color: #FBFBFB;
+        background-color: var(--primary);
+        color: var(--white);
     }
 }

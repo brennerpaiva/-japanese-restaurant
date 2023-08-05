@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./styles.module.scss";
 import Image from "next/image";
-import LogoImage from "../../../public/images/food-jp.png";
+import LogoImage from "../../../public/images/FoodJP.png";
 
 export default function Footer() {
   return (

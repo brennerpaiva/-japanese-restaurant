@@ -7,7 +7,7 @@
     align-items: center;
 
     h1 {
-        font-size: 36px;
+        font-size: 4rem;
     }
 }
 
@@ -24,7 +24,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: var(--grayLight);
+    background: var(--dark-30);
     border-radius: 16px;
     cursor: pointer;
     
@@ -34,23 +34,16 @@
         object-fit: contain;
     }
     span {
-        color: #292929;
         font-family: Montserrat;
-        font-size: 24px;
+        font-size: 2.6rem;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
     }
-
-    p{
+    p {  
+        font-size: 1.6rem;
         margin: 18px 0;
-    }
-}
-
-.card:hover {
-    img {
-        width: 235px;
-       
+        color: var(--dark-20);       
     }
 }
 

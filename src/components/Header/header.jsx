@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import LogoImage from "../../../public/images/food-jp.png";
+import LogoImage from "../../../public/images/FoodJP.png";
 import Image from "next/image";
 
 export default function Header() {

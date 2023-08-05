@@ -15,7 +15,7 @@ export default function FirstSection() {
         <button>Cardápio</button>
       </div>
       <div className={Style.image}>
-        <Image src={ImageSection1} width={430} />
+        <Image src={ImageSection1} width={450} />
       </div>
     </div>
   );

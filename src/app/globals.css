@@ -15,30 +15,9 @@
   --dark-30: #f3f3f3;
 }
 
-html {
-  font-size: 62.5%; /* 10px */
-}
-
 body {
   font-size: 1.6rem; /* 16px */
   color: var(--dark-10);
-}
-
-@media (max-width: 1080px) {
-  html {
-    font-size: 93.75%;
-    /*Vai gerar 15px */
-  }
-}
-
-@media (max-width: 720px) {
-  html {
-    /* Vai gerar 14px*/
-    font-size: 87.5%;
-  }
-}
-
-body {
   background: var(--white);
 }
 
@@ -47,7 +26,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 16px "Montserrat", sans-serif;
+  font: 400 1.6rem "Montserrat", sans-serif;
 }
 
 button {
@@ -57,4 +36,15 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+@media (max-width: 1080px) {
+}
+
+@media (max-width: 720px) {
+
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Styles from "./styles.module.scss";
-import ImageSection2 from "../../../public/images/second-section.png";
+import ImageSection2 from "../../../public/images/section-2.png";
 
 export default function SecondSection() {
   return (
     <div className={Styles.container}>
       <div className={Styles.image}>
-        <Image src={ImageSection2} width={600} />
+        <Image src={ImageSection2} width={560} />
       </div>
       <div className={Styles.text}>
         <h1>Feita de Forma Tradicional</h1>

@@ -12,7 +12,7 @@ export default function MostPopular() {
       <div className={Styles.cardRow}>
         <div className={Styles.card}>
           <div className={Styles.cardImage}>
-            <Image src={FirstCardImage} width={220} />
+            <Image src={FirstCardImage} width={220} height={230} />
           </div>
           <span>Ramen de Frango</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -20,7 +20,7 @@ export default function MostPopular() {
         </div>
         <div className={Styles.card}>
           <div className={Styles.cardImage}>
-            <Image src={SecondCardImage} width={240} />
+            <Image src={SecondCardImage} width={220} height={230} />
           </div>
           <span>Ramen Apimentado</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -28,7 +28,7 @@ export default function MostPopular() {
         </div>
         <div className={Styles.card}>
           <div className={Styles.cardImage}>
-            <Image src={ThirdCardImage} width={240} />
+            <Image src={ThirdCardImage} width={220} height={230} />
           </div>
           <span>Ramen Tradicional</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

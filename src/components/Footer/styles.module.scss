@@ -8,8 +8,7 @@
 
 .footer {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 .contact, .about, .services {
@@ -19,13 +18,13 @@
 
     h3 {
         margin-bottom: 24px;
-        font-size: 28px;
         font-weight: 500;
-        
+        font-size: 2.6rem;
     }
     span {
         cursor: pointer;
-        line-height: 32px; 
-        color: #616161;
+        margin-bottom: 12px; 
+        color: var(--dark-20);
+        font-size: 1.6rem;
     }
 }
