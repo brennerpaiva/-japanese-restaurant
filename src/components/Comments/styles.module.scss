@@ -45,3 +45,24 @@
         width: 455px;
     }
 }
+
+@media (max-width: 1230px) {
+    .cardRow {
+        gap: 2.8rem;
+    }
+
+    .card {
+        width: 440px;
+        height: 440px;
+        text-align: center;
+        align-items: center;   
+    
+        p {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 720px) {
+
+}

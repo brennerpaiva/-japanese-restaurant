@@ -7,6 +7,15 @@
     align-items: center;
 }
 
+.image{
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+        padding-right: 2rem;
+    }
+}
 
 .text {
     font-family: "Montserrat", sans-serif; 
@@ -29,4 +38,12 @@
         text-decoration: underline;
         font-size: 2rem;
     }
+}
+
+@media (max-width: 1080px) {
+    
+}
+
+@media (max-width: 720px) {
+
 }

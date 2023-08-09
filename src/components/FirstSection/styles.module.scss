@@ -36,3 +36,20 @@
         color: var(--white);
     }
 }
+
+.image{
+    img{
+        max-width: 40rem;
+        height: auto;
+        display: block;
+        margin: 0 auto;        
+    }
+}
+
+@media (max-width: 1080px) {
+
+}
+
+@media (max-width: 720px) {
+
+}

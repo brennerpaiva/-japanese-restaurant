@@ -7,7 +7,7 @@ export default function SecondSection() {
   return (
     <div className={Styles.container}>
       <div className={Styles.image}>
-        <Image src={ImageSection2} width={560} />
+        <Image src={ImageSection2} />
       </div>
       <div className={Styles.text}>
         <h1>Feita de Forma Tradicional</h1>
